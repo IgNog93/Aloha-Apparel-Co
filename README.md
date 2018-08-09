@@ -1,4 +1,4 @@
-# ALOHA, Mate
+# ALOHA APPAREL CO. - RED ACADEMY PROJECT 1 - WS WEBDEV PROGRAM
 
 # Project Summary
 
