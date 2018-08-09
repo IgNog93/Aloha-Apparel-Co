@@ -8,7 +8,7 @@
  
 ## Screenshots Mobile/Tablet/Desktop
 
-<img src="screenshots/desktop.png" width="150px"><img src="screenshots/mobile.png" width="150px">
+<img src="screenshots/desktop.PNG" width="150px"><img src="screenshots/mobile.PNG" width="150px">
 
 ## Tech Used
 
