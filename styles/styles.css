@@ -76,7 +76,7 @@ a:hover {
         height: 425px;
     }
     .bannergirl {
-        background-image: url(images/banner-girl.png);
+        background-image: url(../images/banner-girl.png);
         height: auto;
         background-repeat: no-repeat;
         background-position-y: 500%;
@@ -475,7 +475,7 @@ body {
 
 .banner {
     height: 525px;
-    background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(images/banner-girl.png) no-repeat center 70px, url(images/flower-bkgd.jpg) repeat-x;
+    background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(../images/banner-girl.png) no-repeat center 70px, url(../images/flower-bkgd.jpg) repeat-x;
     background-position-y: 1;
     background-size: cover, 210px auto;
     color: white;
@@ -550,20 +550,20 @@ h2 {
 }
 
 .men {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/mens-category.jpg) no-repeat top;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/mens-category.jpg) no-repeat top;
     flex-basis: 50%;
     background-size: cover;
 }
 
 .trends {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/trends-category.jpg) no-repeat top;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/trends-category.jpg) no-repeat top;
     flex-basis: 24.75%;
     background-size: cover;
     margin: 0px 0.5% 0.5%;
 }
 
 .glasses {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/glasses-category.jpg) no-repeat top;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/glasses-category.jpg) no-repeat top;
     flex-basis: 24.75%;
     background-size: cover;
     margin: 0px 0% 0.5%;
@@ -577,21 +577,21 @@ h2 {
 }
 
 .sale {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/sale-category.jpg) no-repeat top;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/sale-category.jpg) no-repeat top;
     flex-basis: 24.75%;
     background-size: cover;
     margin: 0%;
 }
 
 .bags {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/bags-category.jpg) no-repeat bottom;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/bags-category.jpg) no-repeat bottom;
     flex-basis: 24.75%;
     background-size: cover;
     margin: 0px 0.5% 0.5%;
 }
 
 .womens {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/womens-category.jpg) no-repeat top;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/womens-category.jpg) no-repeat top;
     flex-basis: 50%;
     background-size: cover;
 }
@@ -713,7 +713,7 @@ ol.flickity-page-dots {
 .subscription {
     display: flex;
     flex-direction: column;
-    background-image: url(images/wave-bkgd.jpg);
+    background-image: url(../images/wave-bkgd.jpg);
     background-size: 1600px auto;
     background-repeat: no-repeat;
     width: 100%;
@@ -769,7 +769,7 @@ ol.flickity-page-dots {
     position: absolute;
     right: 4px;
     height: 37px;
-    background: #e2574c;
+    background-color: #e2574c;
     color: white;
     border-width: 0;
     width: 19%;
@@ -779,6 +779,11 @@ ol.flickity-page-dots {
     top: 3px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+}
+
+.subscription button:hover {
+    background-color: #b64036;
 }
 
 button:active {
