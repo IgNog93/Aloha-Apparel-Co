@@ -1,6 +1,7 @@
 $(function(){
 
 var CardItems = 0;
+
 $(document).on("click", ".add-item", function(event){
     event.preventDefault();
     
@@ -24,7 +25,7 @@ $(document).on("click", ".add-item", function(event){
 
         var eMail = $("#email-input");
 
-        0 !== eMail.val().length ? (alert("Thanks for subscribing!"),
+        eMail.val().length !== 0 ? (alert("Thanks for subscribing!"),
         eMail.val("")) : alert("Please submit an email address.")
         
      });
