@@ -8,7 +8,7 @@
  
 ## Screenshots Mobile/Tablet/Desktop
 
-<img src="screenshots/aloham.png" width="150px"><img src="screenshots/alohat.png" width="150px"><img src="screenshots/aloha.png" width="150px">
+<img src="screenshots/desktop.png" width="150px"><img src="screenshots/mobile.png" width="150px">
 
 ## Tech Used
 
