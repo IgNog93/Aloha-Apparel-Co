@@ -824,7 +824,7 @@ button:active {
 }
 
 .aloha_info li {
-    line-height: 20px;
+    line-height: 40px;
 }
 
 .location {
@@ -845,4 +845,8 @@ button:active {
 .aloha_socialmedias ul {
     width: 110px;
     padding-left: 0px;
+}
+
+.add-item {
+    cursor: pointer;
 }
