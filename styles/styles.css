@@ -1,0 +1,843 @@
+h1 {
+    font-size: 4rem
+}
+
+a:hover {
+    color: #b64036;
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        max-width: 100%;
+    }
+    header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-bottom: 4%;
+    }
+    .aloha_logo {
+        position: relative;
+        bottom: 12px;
+    }
+    .cart_icon {
+        padding-bottom: 10px;
+    }
+    header p {
+        margin-bottom: 0px;
+        margin-top: 1%;
+        position: absolute;
+        left: 0%;
+        width: 5%;
+        height: -1%;
+        text-align: center;
+        font-size: 0.875rem;
+        height: 3%;
+    }
+    header a {
+        font-size: 0.875rem;
+        font-weight: 700;
+    }
+    header b {
+        width: 100%;
+        height: 100%;
+        font-size: 0.75rem;
+        margin-top: 30%;
+        margin-left: 8%;
+    }
+    header ul {
+        list-style-type: none;
+        margin-top: 15.5%;
+        position: absolute;
+        width: 90%;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        right: 0%;
+        left: 0%;
+        max-width: 425px;
+        padding-top: 2%;
+        /* Header Border Mobile */
+        border-top: solid;
+        border-top-style: solid;
+        border-top-width: thin;
+        border-top-color: darkgray;
+    }
+    header ul li {
+        margin-left: 0px;
+        width: auto;
+        display: flex;
+        margin-right: 0%;
+    }
+    /*banner*/
+    .banner {
+        height: 425px;
+    }
+    .bannergirl {
+        background-image: url(images/banner-girl.png);
+        height: auto;
+        background-repeat: no-repeat;
+        background-position-y: 500%;
+        background-size: 170px;
+        align-content: initial;
+        background-position-x: center;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: 500;
+        font-family: 'Playfair Display';
+        width: 100%;
+        position: relative;
+        right: 0%;
+        display: flex;
+        margin: 0px;
+    }
+    .bannergirl p {
+        padding-top: 35%;
+        font-size: 1rem;
+    }
+    .hand-crafted-styles {
+        font-size: 0.875rem;
+        margin-top: 7%;
+    }
+    .h2 {
+        font-size: 1.75rem;
+    }
+    .hand-crafted-styles p {
+        margin-top: 5%;
+        margin-bottom: 0%;
+        display: flex;
+        align-content: center;
+        text-align: center;
+        width: 90%;
+        position: relative;
+        left: 5%;
+        line-height: 1.5rem;
+    }
+    .firstrow {
+        margin-top: 5%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+    }
+    .firstrow li {
+        margin-left: 0%;
+    }
+    .style {
+        font-size: 1.75rem;
+        height: 250px;
+    }
+    .men {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    .trends {
+        width: 49.5%;
+        margin-left: 0px;
+        margin-right: 1%;
+        align-self: flex-start;
+    }
+    .glasses {
+        width: 49.5%;
+        align-self: flex-end;
+        position: relative;
+        bottom: 302px;
+    }
+    .sale {
+        width: 49.5%;
+        align-self: flex-start;
+        position: relative;
+        top: 300px;
+        margin-right: 1%;
+    }
+    .bags {
+        width: 49.5%;
+        margin-left: 0%;
+        align-self: flex-end;
+        position: relative;
+        left: 2px;
+    }
+    .secondrow {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        top: 358px;
+        position: relative;
+    }
+    .womens {
+        width: 100%;
+        margin-bottom: 1%;
+        margin-top: 0.5%;
+    }
+    .flickity-prev-next-button.next {
+        margin-left: 324px;
+        bottom: 770px;
+        width: 9%;
+        height: 100px;
+    }
+    .flickity-prev-next-button.previous {
+        margin-right: 500px;
+        bottom: 770px;
+        width: 9%;
+        height: 100px;
+    }
+    .carousel {
+        top: 250px;
+    }
+    .carousel ul {
+        display: flex;
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .carousel li {
+        width: 100%;
+    }
+    .carousel-product {
+        width: 100%;
+    }
+    .carousel-product h5 {
+        margin-top: 20px;
+    }
+    h4 {
+        color: #e2574c;
+        font-family: 'Playfair Display';
+        font-size: 1.2rem;
+    }
+    .carousel a {
+        width: 30px;
+        text-decoration: none;
+        color: black;
+        line-height: 20px;
+    }
+    .carousel p {
+        font-size: 0.8rem;
+    }
+    .carousel img {
+        width: 100%;
+    }
+    .carousel button {
+        border-radius: 50px 50px;
+        position: relative;
+        background: black;
+        color: white;
+        border-width: 0;
+        width: 40%;
+        height: 25px;
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+    .subscription {
+        background-position-y: -600px;
+        background-position-x: -450px;
+        height: 230px;
+        padding-top: 60px;
+        position: relative;
+        top: 260px;
+    }
+    .subscription h2 {
+        text-align: center;
+        position: relative;
+        max-width: 100%;
+        margin-bottom: 8%;
+    }
+    .subscription p {
+        font-size: 0.875rem;
+        max-width: 100%;
+    }
+    .subscription form {
+        display: flex;
+    }
+    .subscription input {
+        width: 90%;
+        position: relative;
+        border-radius: 50px 50px;
+        border-width: 0px;
+        height: 40px;
+        left: 50px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+    }
+    .subscription button {
+        border-radius: 50px 50px;
+        position: relative;
+        right: 51px;
+        height: 40px;
+        width: 27%;
+        font-size: 0.875rem;
+        bottom: 1%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        line-height: 10%;
+        text-align: center;
+        align-content: center;
+        font-size: 0.875rem;
+        height: 300px;
+        position: relative;
+        top: 290px;
+    }
+    .fa-facebook-f {
+        width: 10px;
+    }
+    .aloha_info {
+        position: relative;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+    }
+    .aloha_socialmedias {
+        position: relative;
+        top: 5%;
+        left: 40%;
+        width: 150px;
+        height: 100%;
+        line-height: 30px;
+        text-align: center;
+        font-size: 0.875rem;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+    }
+    .aloha_socialmedias ul {
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+        position: relative;
+        right: 265px;
+    }
+    .socialmediashide {
+        visibility: hidden;
+    }
+}
+
+/*TABLET 600px*/
+
+@media screen and (max-width: 600px) {
+    /*Navigation Bar TB 600px*/
+    body {
+        max-width: 100%;
+    }
+    header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-bottom: 4%;
+    }
+    .aloha_logo {
+        margin-bottom: 5%;
+        align-self: flex-start;
+    }
+    .cart_icon {
+        margin: 0;
+        position: relative;
+        align-self: flex-end;
+        top: 58px;
+        right: 10px;
+        margin-right: 30px;
+    }
+    header p {
+        margin-bottom: 0px;
+        margin-top: 1%;
+        position: absolute;
+        left: 0%;
+        width: 5%;
+        height: -1%;
+        text-align: center;
+        font-size: 0.875rem;
+        height: 3%;
+    }
+    header a {
+        font-size: 0.875rem;
+        font-weight: 700;
+    }
+    header b {
+        width: 100%;
+        height: 100%;
+        font-size: 0.75rem;
+        margin-top: 30%;
+        margin-left: 8%;
+    }
+    header ul {
+        list-style-type: none;
+        margin-top: 15.5%;
+        position: absolute;
+        width: 90%;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        right: -3%;
+        padding-top: 2%;
+        /* Header Border Mobile */
+        border-top: solid;
+        border-top-style: solid;
+        border-top-width: thin;
+        border-top-color: darkgray;
+    }
+    header ul li {
+        margin-left: 0px;
+        width: auto;
+        display: flex;
+        margin-right: 0%;
+    }
+}
+
+/*DESKTOP 1240PX*/
+
+body {
+    margin: 0px;
+    font-family: 'Raleway';
+    font-size: 1rem;
+}
+
+/*Navigation Bar DT 1240px*/
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aloha_logo {
+    display: flex;
+    width: 150px;
+    height: 60px;
+    padding-left: 3%;
+}
+
+header ul {
+    width: 100%;
+    margin: 0px;
+    padding-left: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 1%
+}
+
+header ul li {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 5%;
+}
+
+header a {
+    color: #e2574c;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cart_icon {
+    width: 60px;
+    margin: 0px;
+    position: relative;
+    padding-right: 1%;
+}
+
+.cart-items {
+    position: relative;
+    right: 2.25%;
+    bottom: 20%;
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/*Main Banner DT 1240px*/
+
+body {
+    max-width: 1800px;
+}
+
+.banner {
+    height: 525px;
+    background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(images/banner-girl.png) no-repeat center 70px, url(images/flower-bkgd.jpg) repeat-x;
+    background-position-y: 1;
+    background-size: cover, 210px auto;
+    color: white;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    padding-top: 185px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+    font-family: 'Playfair Display';
+    text-align: center;
+    margin-top: 0%;
+}
+
+/*Section Hand-Crafted DT 1240px*/
+
+.hand-crafted-styles {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 35px;
+}
+
+.hand-crafted-styles p {
+    margin-top: 35px;
+    display: block;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    font-size: 1.25rem;
+}
+
+.hand-crafted-styles span {
+    font-weight: initial;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 2.5rem;
+}
+
+/*Style Blocks DT 1240px*/
+
+.style {
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-style: none;
+}
+
+.firstrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+}
+
+.men {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/mens-category.jpg) no-repeat top;
+    flex-basis: 50%;
+    background-size: cover;
+}
+
+.trends {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/trends-category.jpg) no-repeat top;
+    flex-basis: 24.75%;
+    background-size: cover;
+    margin: 0px 0.5% 0.5%;
+}
+
+.glasses {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/glasses-category.jpg) no-repeat top;
+    flex-basis: 24.75%;
+    background-size: cover;
+    margin: 0px 0% 0.5%;
+}
+
+.secondrow {
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+    margin: 0%;
+}
+
+.sale {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/sale-category.jpg) no-repeat top;
+    flex-basis: 24.75%;
+    background-size: cover;
+    margin: 0%;
+}
+
+.bags {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/bags-category.jpg) no-repeat bottom;
+    flex-basis: 24.75%;
+    background-size: cover;
+    margin: 0px 0.5% 0.5%;
+}
+
+.womens {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/womens-category.jpg) no-repeat top;
+    flex-basis: 50%;
+    background-size: cover;
+}
+
+/*Second Section*/
+
+.most-loved-products {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.most-loved-products span {
+    font-weight: initial;
+    font-style: italic;
+}
+
+/*Carousel DT 1240px*/
+
+.flickity-enabled {
+    position: relative;
+    padding-left: 20px;
+}
+
+.flickity-slider {
+    margin-left: 140px;
+    left: 40px;
+}
+
+.flickity-prev-next-button.next {
+    display: flex;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.flickity-prev-next-button.previous {
+    display: flex;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.carousel {
+    align-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.carousel ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.carousel li {
+    width: 25%;
+}
+
+.carousel-product {
+    width: 25%;
+}
+
+h4 {
+    color: #e2574c;
+    font-family: 'Playfair Display';
+    font-size: 1.5rem;
+}
+
+.carousel a {
+    width: 30px;
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+}
+
+.carousel p {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.carousel button {
+    border-radius: 50px 50px;
+    position: relative;
+    background: black;
+    color: white;
+    border-width: 0;
+    width: 45%;
+    height: 35px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+ol.flickity-page-dots {
+    position: relative;
+    width: 100%;
+    bottom: -33px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+/*Subscription DT 1240px*/
+
+.subscription {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/wave-bkgd.jpg);
+    background-size: 1600px auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-size: 16px;
+    background-position-y: -590px;
+    margin-top: 30px;
+    background-position-x: 50%;
+}
+
+.subscription h2 {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 0.5px;
+}
+
+.subscription-container {
+    width: 100%;
+    display: flex;
+}
+
+.subscription p {
+    font-size: 1.25rem;
+    display: flex;
+    width: 60%;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 1%;
+    line-height: 40px;
+}
+
+.subscription form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    width: 40%;
+    position: relative;
+}
+
+.subscription input {
+    width: 100%;
+    border-radius: 50px 50px;
+    border-width: 0px;
+    height: 40px;
+}
+
+.subscription button {
+    border-radius: 50px 50px;
+    position: absolute;
+    right: 4px;
+    height: 37px;
+    background: #e2574c;
+    color: white;
+    border-width: 0;
+    width: 19%;
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 0.9rem;
+    top: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+/*Footer DT 1240px*/
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+    margin-top: -20px;
+    display: flex;
+}
+
+.footer ul li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #b64036;
+}
+
+.aloha_info {
+    align-self: center;
+    position: relative;
+    width: 40%;
+    height: 70%;
+    font-family: 'Playfair Display';
+}
+
+.aloha_info li {
+    line-height: 20px;
+}
+
+.location {
+    color: gray;
+}
+
+.aloha_socialmedias {
+    position: relative;
+    width: 10%;
+    height: 70%;
+    line-height: 35px;
+    margin-top: 0%;
+    text-align: left;
+    align-self: center;
+    left: 40%;
+}
+
+.aloha_socialmedias ul {
+    width: 110px;
+    padding-left: 0px;
+}
