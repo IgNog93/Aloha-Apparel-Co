@@ -12,7 +12,7 @@
 
 <img src="screenshots/mobile.PNG" width="150px">
 
-## Tech Used
+## Technologies Used
 
 * HTML
 * Javascript
