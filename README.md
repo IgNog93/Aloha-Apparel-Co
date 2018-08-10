@@ -23,7 +23,7 @@
 * Git/GitHub
 
 
-### Summary of what I learnt
+### Summary of what I learned
 * It is important to create a mobile-first css framework and then expand from there
 * Using JQuery/Javascript to implement functionality
 * Using flex css to neatly organize the layout of the page, while not relying on a third-party css framework
